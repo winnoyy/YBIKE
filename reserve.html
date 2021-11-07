@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="reserve.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="index.html"><img src="./Assets/logo.png" alt=""></a>
+        </div>
+    <div class="navbar">
+        <div class="home">
+            <a href="index.html">Home</a>
+        </div>
+        <div class="dropdown">
+            <button class="probtn">
+                Products
+            </button>
+            <div class="product">
+                <a href="vixian.html">Vixian</a>
+                <a href="kawasako.html">Kawasako</a>
+            </div>
+        </div>
+        <div class="gallery">
+            <a href="gallery.html">Gallery</a>
+        </div>
+        <div class="reserve">
+            <a href="reserve.html">Reserve</a>
+        </div>
+    </div>
+</nav>
+
+    <main>
+        <div class="main">
+            <div class="productText">
+                <h3>Product Information</h1>
+            </div>
+            <form action="" method="GET" onsubmit=" return submitForm(this)">
+            <div class="formContainerProduct">
+                
+                    <div>
+                        <div class="label">
+                            <label for="model">Choose product</label>
+                        </div>
+                        <div class="input">
+                            <select name="model" id="model">
+                                <option value=""hidden>Please choose product</option>
+                                <option value="Kawasako">Kawasako</option>
+                                <option value="Vixian">Vixian</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="label">
+                            <label for="quantity">Quantity</label>
+                        </div>
+                        <div class="input">
+                            <input type="number" name="quantity" id="quantity" placeholder="Enter quantity">
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="label">
+                            <label for="color">Color</label>
+                        </div>
+                        <div class="input">
+                            <select name="color" id="color">
+                                <option value=""hidden>Please choose color</option>
+                                <option value="Black">Black</option>
+                                <option value="White">White</option>
+                                <option value="Red">Red</option>
+                                <option value="Silver">Silver</option>
+
+                            </select>
+                        </div>
+                    </div>
+                
+            </div>
+
+            <div class="personalText">
+                <h3>Personal Information</h1>
+            </div>
+
+            <div class="formContainerPersonal">
+                
+                    <div>
+                        <div class="label">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="input">
+                            <input type="text" name="name" id="name" placeholder="Enter your name">
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="label">
+                            <label for="phone">Phone</label>
+                        </div>
+                        <div class="input">
+                            <input type="tel" name="phone" id="phone" placeholder="Enter your phone number">
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="label">
+                            <label for="address">Address</label>
+                        </div>
+                        <div class="input">
+                            <textarea name="address" id="address" placeholder="Enter your address"></textarea>
+                        </div>
+                    </div>
+                    <div class="div-btn">
+                        <input type="submit" value="Submit">
+                    </div>
+                
+            </div>
+        </form>        
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="wrapper">
+              <div class="leftFooter">
+                  <b>   <span>YBike@gmail.com</span> </b>
+                  <br>
+                  <b> <span>02153673580</span></b>
+                  <br>
+                  <b> <span>Copyright YBike 2021</span></b>
+              </div>
+              <div class="rightFooter">
+                <b> <span>Payment Options : </span> </b>
+                <br>
+                <a href="">
+                    <img src="./Assets/Bank BCA Logo (PNG-720p) - FileVector69.png" />
+                  </a>
+                  <a href="">
+                    <img src="./Assets/kisspng-bank-mandiri-bank-syariah-mandiri-logo-mandiri-5b2c8fd904ad28.3692217215296470650192.png" />
+                  </a>
+                  <a href="">
+                    <img src="./Assets/PikPng.com_bni-logo-png_4896877.png" />
+                  </a>
+              </div>
+            </div>
+          </div>
+    </footer>
+</body>
+</html>
